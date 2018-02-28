@@ -8,6 +8,9 @@ apt-get purge libreoffice* -y
 apt-get remove libreoffice*
 apt-get autoremove -y
 
+# CHECHEO DE DEPENDENCIAS
+apt-get build-dep libreoffice
+
 # Creamos una carpeta nueva llamada libreoffice en /tmp
 cd /tmp/
 mkdir libreoffice
